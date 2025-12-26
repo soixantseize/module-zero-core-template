@@ -44,3 +44,11 @@ Strong practical engineer with solid debugging, testing, and deployment skills. 
 - [x] Testing & Quality (Excellent)
 - [x] DevOps & Tooling (Strong)
 - [x] Problem Solving (Good)
+
+---
+
+## Compensation Notes
+- **Current Salary**: $93,000
+- **Tenure at Current Company**: ~5 years
+- **Market Gap**: Likely 30-50% underpaid based on experience and skills
+- **Estimated Market Value**: $130,000 - $165,000 (location dependent)
