@@ -2,9 +2,9 @@
 
 ## Candidate Responses
 
-| Question | Response | Notes |
-|----------|----------|-------|
-| | | |
+| # | Category | Response Summary |
+|---|----------|------------------|
+| 1 | Background | 10+ years professional experience, .NET/C# focus, large codebase maintenance, feature development, defect resolution. Currently expanding into AWS (ECS, CodePipeline, Secrets Manager, Lambda) |
 
 ## Assessment Summary
 
