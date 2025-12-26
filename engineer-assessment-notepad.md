@@ -10,20 +10,37 @@
 | 4 | Testing | Strong testing experience. Uses XUnit for unit tests, Postman for API tests with email alerting. Impressive modern E2E setup: TestContainers + Playwright + PostgreSQL running in CodePipeline. Spins up isolated containers (DB, API, frontend, Playwright) for real regression tests. Shows understanding of testing pyramid and CI/CD integration. |
 | 5 | Data Structures | C#: Attempted LINQ with Where/Any (has syntax issues and would be O(n²)). Better approach: GroupBy + Count > 1, or HashSet for O(n). SQL: Suggested cursor approach (procedural). Better: GROUP BY + HAVING COUNT(*) > 1. Shows working knowledge but gaps in optimal set-based solutions and algorithm complexity. |
 | 6 | AWS & Cloud | Good understanding of request flow: Frontend → ELB (in VPC) → ECS Task (containerized app). Understands CodePipeline for CI/CD triggered by git commits. Solid working knowledge. Didn't mention ECR, target groups, security groups, or deployment strategies (blue/green). Growing cloud expertise. |
+| 7 | System Design | Excellent pragmatic approach: Start simple (sync in API), scale when needed. Knows correct AWS async pattern: SNS → SQS → Lambda for notifications. Understands complexity trade-offs. Has hands-on experience with .NET AWS SDKs. Senior-level architectural thinking. |
 
 ## Assessment Summary
 
-- **Overall Level**: TBD
-- **Strengths**: TBD
-- **Areas for Growth**: TBD
+- **Overall Level**: **Mid-Senior Software Engineer** (transitioning toward Senior/Staff)
+- **Years of Experience**: 10+ years
+
+### Strengths
+- Extensive hands-on experience with large .NET/C# codebases
+- Strong practical testing skills (XUnit, Postman, TestContainers + Playwright E2E)
+- Modern CI/CD implementation (CodePipeline with containerized testing)
+- Pragmatic system design thinking (knows when to start simple, when to scale)
+- Good understanding of AWS event-driven architecture (SNS → SQS → Lambda)
+- Practical problem-solving approach focused on data flow
+
+### Areas for Growth
+- **Design Patterns**: Strengthen theoretical knowledge (DI lifecycles, Repository Pattern vs git)
+- **Algorithm Complexity**: Focus on O(n) vs O(n²) solutions, set-based SQL over cursors
+- **Observability**: Learn CloudWatch, X-Ray, APM tools for cloud debugging
+- **AWS Depth**: Explore security groups, target groups, deployment strategies (blue/green)
+
+### Level Justification
+Strong practical engineer with solid debugging, testing, and deployment skills. The TestContainers/Playwright setup and AWS event-driven design knowledge are senior-level. Some gaps in theoretical CS fundamentals and design pattern terminology, but these don't prevent effective work. Currently growing cloud expertise which will round out the skillset.
 
 ---
 
 ## Categories Evaluated
-- [ ] Programming Fundamentals
-- [ ] Data Structures & Algorithms
-- [ ] System Design
-- [ ] Software Architecture
-- [ ] Testing & Quality
-- [ ] DevOps & Tooling
-- [ ] Problem Solving
+- [x] Programming Fundamentals (Solid)
+- [x] Data Structures & Algorithms (Needs improvement)
+- [x] System Design (Strong)
+- [x] Software Architecture (Practical, some theory gaps)
+- [x] Testing & Quality (Excellent)
+- [x] DevOps & Tooling (Strong)
+- [x] Problem Solving (Good)
