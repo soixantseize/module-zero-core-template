@@ -8,6 +8,7 @@
 | 2 | Architecture & Patterns | Approaches unfamiliar code by understanding data flow (DB, controllers, APIs). Familiar with patterns but some conceptual gaps: DI described as singleton-based injection (partially correct - DI is broader). Repository Pattern confused with git repos (actually an abstraction layer for data access). Uses patterns in practice. |
 | 3 | Debugging | Practical hands-on approach: connects local debugger to prod DB, steps through code as user, analyzes data flow and DB writes, checks DB logs and exceptions. Solid but relies on direct access. Didn't mention observability tools (APM, log aggregation, CloudWatch, distributed tracing). |
 | 4 | Testing | Strong testing experience. Uses XUnit for unit tests, Postman for API tests with email alerting. Impressive modern E2E setup: TestContainers + Playwright + PostgreSQL running in CodePipeline. Spins up isolated containers (DB, API, frontend, Playwright) for real regression tests. Shows understanding of testing pyramid and CI/CD integration. |
+| 5 | Data Structures | C#: Attempted LINQ with Where/Any (has syntax issues and would be O(n²)). Better approach: GroupBy + Count > 1, or HashSet for O(n). SQL: Suggested cursor approach (procedural). Better: GROUP BY + HAVING COUNT(*) > 1. Shows working knowledge but gaps in optimal set-based solutions and algorithm complexity. |
 
 ## Assessment Summary
 
